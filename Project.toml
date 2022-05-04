@@ -1,0 +1,11 @@
+name = "CoefficientMatrix"
+uuid = "1e81e39a-5d08-4adc-91e8-2b94bcd23ea6"
+authors = ["fangruihuan <fangrh5@mail2.sysu.edu.cn>"]
+version = "0.1.0"
+
+[extras]
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Markdown", "Test"]
